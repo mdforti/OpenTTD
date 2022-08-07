@@ -117,6 +117,14 @@ able to compile OpenTTD. As the exact list of compilers changes constantly,
 we refer to the compiler manual to see if it supports C++17, and to CMake
 to see if it supports your compiler.
 
+## Graphics component
+
+In order for the compiled binary to run, it is necessary to provide the graphics component. 
+After following the instructions above,  you will get a `openttd/build/basesset` directory. 
+Download the basic graphic package from [the official site](https://www.openttd.org/downloads/opengfx-releases/latest)
+and extract the zip inside `openttd/build/basesset` or in `~/.local/share/openttd/baseset`. 
+Now it will be possible to run the created binary.
+
 ## Compilation of base sets
 
 To recompile the extra graphics needed to play with the original Transport
